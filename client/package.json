@@ -1,0 +1,46 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "axios": "*",
+    "classnames": "*",
+    "jwt-decode": "*",
+    "moment": "^2.22.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-moment": "*",
+    "react-redux": "*",
+    "react-router-dom": "*",
+    "react-scripts": "2.1.1",
+    "redux": "*",
+    "redux-thunk": "*"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arnaudkapongo/TheDraftFrontEnd.git"
+  },
+  "author": "Arnaud Kapongo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arnaudkapongo/TheDraftFrontEnd/issues"
+  },
+  "homepage": "https://github.com/Arnaudkapongo/TheDraftFrontEnd#readme",
+  "proxy": "http://localhost:5000",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

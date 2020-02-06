@@ -1,0 +1,41 @@
+{
+  "name": "thedraft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "concurrently": "*",
+    "express": "*",
+    "gravatar": "*",
+    "gridfs-stream": "^1.1.1",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "multer": "^1.4.1",
+    "multer-gridfs-storage": "^3.2.3",
+    "passport": "*",
+    "passport-jwt": "*",
+    "validator": "*"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  },
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arnaudkapongo/TheDraft.git"
+  },
+  "author": "Arnaud Kapongo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arnaudkapongo/TheDraft/issues"
+  },
+  "homepage": "https://github.com/Arnaudkapongo/TheDraft#readme"
+}
